@@ -12,11 +12,11 @@ describe('Person', () => {
   });
 
   test('should return person age in Mercury years', () => {
-    expect(person.mercuryAge()).toEqual(41)
+    expect(person.mercuryAge()).toEqual(2)
   });
 
   test('should return person age in Venus years', () => {
-    expect(person.venusAge()).toEqual(16)
+    expect(person.venusAge()).toEqual(6)
   });
 
   test('should return person age in Mars years', () => {
@@ -31,8 +31,8 @@ describe('Person', () => {
     expect(person.lifeExpectancy()).toEqual(68)
   });
 
-  test('should return person life expectancy based on where they live with planet funcitons', () => {
-    expect(person.planetsLifeExp()).toEqual([283, 109, 36, 5,])
+  test('should return person life expectancy based on where they live with planet functons', () => {
+    expect(person.planetsLifeExp()).toEqual([16,42,36,5])
   });
 
   test('should return years over life expectancy for person older then life expectancy where they live', () => {
@@ -42,6 +42,6 @@ describe('Person', () => {
 
   test('should return years over life expectancy for person older then life expectancy where they live with planet functions', () => {
     let person = new Person(100, "UK")
-    expect(person.planetsLifeExp()).toEqual([79, 30, 10, 1])
+    expect(person.planetsLifeExp()).toEqual([4, 11, 10, 1])
   });
 });

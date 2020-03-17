@@ -5,12 +5,12 @@ export class Person {
   }
 
   mercuryAge() {
-    this.age *= 100 / 24;
+    this.age *= .24;
     return Math.floor(this.age);
   }
 
   venusAge() {
-    this.age *= 100 / 62;
+    this.age *= .62;
     return Math.floor(this.age);
   }
 
@@ -47,8 +47,8 @@ export class Person {
   }
   planetsLifeExp() {
     let a = this.lifeExpectancy();
-    let MercLifeExp = Math.floor(a * 100 / 24)
-    let VenusLifeExp = Math.floor(a * 100 / 62)
+    let MercLifeExp = Math.floor(a * .24)
+    let VenusLifeExp = Math.floor(a * .62)
     let MarsLifeExp = Math.floor(a * 1 / 1.88)
     let JupiterLifeExp = Math.floor(a * 1 / 11.86)
     return [MercLifeExp, VenusLifeExp, MarsLifeExp, JupiterLifeExp]
