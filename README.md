@@ -19,14 +19,14 @@ Solar Year Calculator calculates what age the user is on Mars, Venus, Jupiter, a
 |  years old on earth|  country of origin | years old on planet/Life Expectancy  |
 |---|---|---|
 | 10  |  US | 10 on Earth  |
-| 10  |  US | 41 on Mars  |
-| 10  |  US  | 16 on Venus |
-| 10  |  US | 5 on Mercury  |
+| 10  |  US | 2 on Mercury  |
+| 10  |  US  | 6 on Venus |
+| 10  |  US | 5 on Mars  |
 | 10  |  US | 0 on Jupiter  |
 | 10  |  US | 68 expected years to live on Earth  |
-| 10  |  US | [283 Exp years to live on Mars, 109 Exp years to live on Venus, 36 Exp years to live on Mercury, 5 Exp years to live on Jupitar]|
+| 10  |  US | [28316 Exp years to live on Mercury, 42 Exp years to live on Venus, 36 Exp years to live on Mars, 5 Exp years to live on Jupiter]|
 | 100 |  Uk | 19 years over life expectancy on earth |
-| 100  |  UK | [19 years over life expectancy on Mars, 30 years over life expectancy on Venus, 10 years over life expectancy on Mercury, 1 year over life expectancy on Jupiter ]  |
+| 100  |  UK | [4 years over life expectancy on Mercury, 11 years over life expectancy on Venus, 10 years over life expectancy on Mars, 1 year over life expectancy on Jupiter ]  |
 
 ## Technologies Used
 * Npm, webpacks, js.node, JEST, JS ES6 ...
