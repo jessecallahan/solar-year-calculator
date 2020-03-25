@@ -1,16 +1,11 @@
-import $ from 'jquery';
+
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles.css'
-import { solar } from './solar.js';
+import './styles.css';
+// import { Person } from './solar.js';
 
-$(document).ready(function () {
-  $('#solar-form').submit(function (event) {
-    event.preventDefault();
-    var goal = $('#age').val();
-    var output = solar(age);
-    output.forEach(function (element) {
-      $('#solution').append("<li>" + element + "</li>");
-    });
-  });
-});
+
+
+
+// no front end yet
+// $(document).ready(function () )
