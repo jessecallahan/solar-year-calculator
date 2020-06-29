@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fireside-chat/static/css/main.c34a4f03.chunk.css",
+    "main.js": "/fireside-chat/static/js/main.0f697b55.chunk.js",
+    "main.js.map": "/fireside-chat/static/js/main.0f697b55.chunk.js.map",
+    "runtime-main.js": "/fireside-chat/static/js/runtime-main.e44db665.js",
+    "runtime-main.js.map": "/fireside-chat/static/js/runtime-main.e44db665.js.map",
+    "static/js/2.2a66b41e.chunk.js": "/fireside-chat/static/js/2.2a66b41e.chunk.js",
+    "static/js/2.2a66b41e.chunk.js.map": "/fireside-chat/static/js/2.2a66b41e.chunk.js.map",
+    "index.html": "/fireside-chat/index.html",
+    "precache-manifest.5432db44bf470acd1c155c2619c9e556.js": "/fireside-chat/precache-manifest.5432db44bf470acd1c155c2619c9e556.js",
+    "service-worker.js": "/fireside-chat/service-worker.js",
+    "static/css/main.c34a4f03.chunk.css.map": "/fireside-chat/static/css/main.c34a4f03.chunk.css.map",
+    "static/js/2.2a66b41e.chunk.js.LICENSE.txt": "/fireside-chat/static/js/2.2a66b41e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e44db665.js",
+    "static/js/2.2a66b41e.chunk.js",
+    "static/css/main.c34a4f03.chunk.css",
+    "static/js/main.0f697b55.chunk.js"
+  ]
+}
